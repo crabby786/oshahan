@@ -1,25 +1,4 @@
-/*
-Template Name: Osahan Eat - Online Food Ordering Website HTML Template
-Author: Askbootstrap
-Author URI: https://themeforest.net/user/askbootstrap
-Version: 1.0
-*/
-/*
--- Body
--- Nav
--- login/Register
--- Homepage Search Block
--- Homepage
--- Customize Bootstrap
--- Listing
--- Detail
--- Checkout Page
--- My Account
--- Track Order Page
--- Footer
--- Mobile Media
-*/
-/* Body */
+
 body {
     background: #f3f7f8;
     font-size: 13px;
@@ -45,6 +24,13 @@ img{
     background: #fff none repeat scroll 0 0 !important;
     padding: 0;
     z-index: 9;
+}
+.navbar-brand img {
+    max-height: 26px;
+}
+.navbar-brand .title {
+    font-weight: bold;
+    font-size:1.3rem;
 }
 .osahan-nav .nav-link {
     font-weight: 600;
@@ -189,7 +175,11 @@ img{
 }
 /* Homepage Search Block */
 .homepage-search-block {
-    background-color: #eef0ef;
+    background-color: rgba(58, 58, 58, 0.33);
+    background-image: url(https://foodmarshal.blob.core.windows.net/fmtesting/E1D0066C-B29A-4991-9CC4-1AC418D96B3E.jpg);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .homepage-search-form .form-control {
     font-size: 15px;
@@ -219,11 +209,10 @@ img{
     height: 50px;
     padding: 13px 5px;
 }
+.css-yk16xz-control {height:50px !important}
+.css-26l3qy-menu {z-index: 2 !important }
 .homepage-search-form .location-dropdown i {
-    left: 18px;
-    position: absolute;
-    top: 20px;
-    z-index: 9;
+    margin-right: 8px;
 }
 .homepage-search-form .select2-selection {
     border-color: #ced4da !important;

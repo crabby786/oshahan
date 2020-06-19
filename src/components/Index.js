@@ -135,22 +135,6 @@ class Index extends React.Component {
 			            </Row>
 			         </Container>
 			    </section>
-			    <section className="section pt-5 pb-5 bg-white becomemember-section border-bottom">
-			         <Container>
-			         	<SectionHeading 
-			         		heading='Become a Member'
-			         		subHeading='Lorem Ipsum is simply dummy text of'
-			         	/>
-			            <Row>
-			               <Col sm={12} className="text-center">
-			                  <Link to="register" className="btn btn-success btn-lg">
-			                  	Create an Account <FontAwesome icon='chevron-circle-right' />
-			                  </Link>
-			               </Col>
-			            </Row>
-			         </Container>
-			    </section>
-
     		</>
     	);
     }
