@@ -1,2 +1,0 @@
-# oshahan
-Created with CodeSandbox
